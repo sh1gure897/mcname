@@ -1,0 +1,1 @@
+# Available Minecraft names are appended here, one per line, as they are found.
