@@ -1,3 +1,0 @@
-# Build/dev tooling (not needed at runtime).
--r requirements.txt
-pyinstaller>=6.0.0
