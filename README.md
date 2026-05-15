@@ -1,4 +1,4 @@
-# 🪓 Minecraft Name Checker
+#  Minecraft Name Checker
 
 [![Python](https://img.shields.io/badge/python-3.10%2B-blue.svg)](https://www.python.org/downloads/)
 [![License: MIT](https://img.shields.io/badge/license-MIT-green.svg)](LICENSE)
@@ -14,7 +14,7 @@ any time.
 
 ---
 
-## ✨ Features
+##  Features
 
 - **Async engine** — `asyncio` + `aiohttp`, bounded by an `asyncio.Semaphore`. No threads.
 - **Smart scoring** — real-word, pronounceability, Japanese-romaji vibe, clean alphanumeric mix, and more. Best names are checked first.
@@ -28,7 +28,7 @@ any time.
 
 ---
 
-## 📦 Installation
+##  Installation
 
 ```bash
 git clone https://github.com/yourname/minecraft-name-checker.git
@@ -40,7 +40,7 @@ Requires **Python 3.10+**.
 
 ---
 
-## 🚀 Usage
+##  Usage
 
 ```bash
 # Default: check all 3 and 4 character names
@@ -74,7 +74,7 @@ mc-name-checker.exe --webhook "https://discord.com/api/webhooks/XXX/YYY" --lengt
 
 ---
 
-## ⚙️ Configuration
+##  Configuration
 
 | Flag            | Type       | Default | Description                                      |
 |-----------------|------------|---------|--------------------------------------------------|
@@ -93,7 +93,7 @@ Generated files:
 
 ---
 
-## 🧠 How the scoring system works
+##  How the scoring system works
 
 Every candidate is scored once and candidates are explored in
 **score-descending order**, so you find the desirable names first. Within a
@@ -119,7 +119,7 @@ no external files, no paid APIs.
 
 ---
 
-## ⚠️ Rate limits & Terms of Service
+##  Rate limits & Terms of Service
 
 This tool is provided for **educational and personal use**. Be a good citizen:
 
@@ -136,7 +136,7 @@ Use responsibly. The authors accept no liability for misuse.
 
 ---
 
-## 🤝 Contributing
+##  Contributing
 
 Contributions are welcome!
 
@@ -151,6 +151,6 @@ Telegram), configurable alphabets, or a pluggable word list.
 
 ---
 
-## 📄 License
+##  License
 
 MIT — see [`LICENSE`](LICENSE).
